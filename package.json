@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "types": "logger.d.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Piattaforme-Applicativi/AsitLogger.git"
