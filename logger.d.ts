@@ -1,4 +1,4 @@
-import pino, { Logger, LoggerOptions } from "pino";
+import { Logger, LoggerOptions } from "pino";
 
 interface LogWithLogIdFn {
   <T extends object>(logId: string, obj: T, msg?: string, ...args: any[]): void;
