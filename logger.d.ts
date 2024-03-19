@@ -30,6 +30,6 @@ export type AsitLogger = Omit<Logger, "fatal" | "error"> & {
   error: LogWithLogIdFn;
 };
 export type AsitLoggerOptions = LoggerOptions;
-export function asitLogger(options?: pino.LoggerOptions): AsitLogger;
+export function asitLogger(options?: AsitLoggerOptions): AsitLogger;
 
 export * from "pino";
