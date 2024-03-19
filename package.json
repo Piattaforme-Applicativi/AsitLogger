@@ -1,0 +1,20 @@
+{
+  "name": "@unipd/logger",
+  "version": "1.0.0",
+  "description": "Custom JS logger for Unipd",
+  "main": "index.ts",
+  "types": "logger.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piattaforme-Applicativi/AsitLogger.git"
+  },
+  "author": "Gianluca Cantele <gianluca.cantele@donq.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Piattaforme-Applicativi/AsitLogger/issues"
+  },
+  "homepage": "https://github.com/Piattaforme-Applicativi/AsitLogger#readme",
+  "dependencies": {
+    "pino": "^8.19.0"
+  }
+}
