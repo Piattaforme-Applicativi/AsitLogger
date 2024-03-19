@@ -4,7 +4,6 @@
   "description": "Custom JS logger for Unipd",
   "main": "dist/index.js",
   "types": "logger.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc"
   },
