@@ -1,4 +1,4 @@
-import pino, { Logger, LoggerOptions } from "pino";
+import { Logger, LoggerOptions } from "pino";
 
 interface LogWithLogIdFn {
   <T extends object>(logId: string, obj: T, msg?: string, ...args: any[]): void;
@@ -30,6 +30,6 @@ export type AsitLogger = Omit<Logger, "fatal" | "error"> & {
   error: LogWithLogIdFn;
 };
 export type AsitLoggerOptions = LoggerOptions;
-export function asitLogger(options?: pino.LoggerOptions): AsitLogger;
+export function asitLogger(options?: AsitLoggerOptions): AsitLogger;
 
 export * from "pino";

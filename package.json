@@ -1,9 +1,12 @@
 {
   "name": "@unipd/logger",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Custom JS logger for Unipd",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "types": "logger.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Piattaforme-Applicativi/AsitLogger.git"
@@ -16,5 +19,8 @@
   "homepage": "https://github.com/Piattaforme-Applicativi/AsitLogger#readme",
   "dependencies": {
     "pino": "^8.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }
