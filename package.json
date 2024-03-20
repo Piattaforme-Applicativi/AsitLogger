@@ -1,6 +1,6 @@
 {
   "name": "@unipd/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom JS logger for Unipd",
   "main": "dist/index.js",
   "types": "logger.d.ts",
