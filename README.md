@@ -50,6 +50,10 @@ logger.fatal(
 // output: {"level":60,"time":<timestamp>,"pid":<processId>,"hostname":"<hostname>","logId":"faFnzi5TVd","chiave":"valore","msg":"Messaggio di errore fatale opzionale"}
 ```
 
+**Attenzione**
+
+Il parametro `logId` NON può essere una stringa vuota ma **deve contenere almeno 3 caratteri**.
+
 ## Generatore di Log ID
 
 Per generare un ID di log personalizzato è **fortemente consigliato** l'utilizzo di [questo tool](https://piattaforme-applicativi.github.io/LogIdGenerator/).
